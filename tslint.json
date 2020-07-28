@@ -1,0 +1,29 @@
+{
+  "extends": ["tslint:latest", "tslint-config-prettier", "tslint-consistent-codestyle"],
+  "rules": {
+    "class-name": true,
+    "no-empty": false,
+    "comment-format": [true, "check-space"],
+    "indent": [true, "spaces"],
+    "one-line": [true, "check-open-brace", "check-whitespace"],
+    "no-var-keyword": true,
+    "no-console": {
+      "severity": "warning"
+    },
+    "quotemark": [true, "single", "avoid-escape"],
+    "semicolon": [false, "always"],
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "no-submodule-imports": false,
+    "no-internal-module": true,
+    "label-position": true,
+    "no-implicit-dependencies": false,
+    "no-unused-variable": true,
+    "no-unused-expression": false,
+    "no-trailing-whitespace": true,
+    "no-require-imports": true,
+    "no-null-keyword": false,
+    "prefer-const": true,
+    "no-return-await": false
+  }
+}

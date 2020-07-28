@@ -1,0 +1,5 @@
+{
+  "watch": ["src"],
+  "ext": "ts",
+  "exec": "yarn compile && cross-env NODE_ENV=development node dist/app"
+}
