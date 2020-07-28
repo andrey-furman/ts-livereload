@@ -5,9 +5,9 @@
   "author": "Andrey Furman <andrey.furman.sup.acc@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "yarn compile && yarn watch:js",
+    "dev": "yarn compile && yarn watch",
     "compile": "tsc",
-    "watch:js": "nodemon --watch ./src --exec \"./node_modules/.bin/cross-env NODE_ENV=development node ./src/app.js\""
+    "watch": "nodemon"
   },
   "dependencies": {
     "cross-env": "^7.0.2",
@@ -15,6 +15,7 @@
     "typescript": "^3.9.7"
   },
   "devDependencies": {
+    "@types/node": "^14.0.26",
     "nodemon": "^2.0.4"
   }
 }
