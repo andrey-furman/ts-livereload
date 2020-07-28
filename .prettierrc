@@ -1,0 +1,12 @@
+{
+    "tabWidth": 2,
+    "semi": false,
+    "files": "*.m?[j|t]s",
+    "singleQuote": true,
+    "useTabs": false,
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "arrowParens": "avoid",
+    "max-line-length": [true, 100],
+    "printWidth": 100
+}
