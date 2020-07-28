@@ -1,2 +1,4 @@
 # ts-livereload
-Set up ts livereload project. Get &amp; write
+
+To begin developing just write the next command:
+1. yarn; yarn dev
