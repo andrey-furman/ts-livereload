@@ -1,5 +1,6 @@
 {
   "extends": ["tslint:latest", "tslint-config-prettier", "tslint-consistent-codestyle"],
+  "max-line-length": [true, 100],
   "rules": {
     "class-name": true,
     "no-empty": false,
