@@ -6,6 +6,5 @@
     "trailingComma": "all",
     "bracketSpacing": true,
     "arrowParens": "avoid",
-    "max-line-length": [true, 100],
     "printWidth": 100
 }
