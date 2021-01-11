@@ -1,6 +1,10 @@
-# ts-livereload
+##ts-livereload
 
-To begin developing just write the next command:
+---
+
+####Blank typescript project with configured linter, prettier and live-reloading out of the box
+
+*To begin developing run:*
 ```sh
-1. yarn; yarn dev
+yarn dev
 ```
